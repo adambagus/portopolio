@@ -4,8 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1 class="text-7xl text-navbar font-bold underline">Hello world!</h1>
+    <header class="bg-navbar">
+       <!-- px(gabungan antara jarak kiri dan kanan) -->
+      <!-- py (gabungan antara jarak atas dan bawah) -->
+      <!-- justify (untuk mengatur jarak secara horizontal) -->
+      <div class="flex px-28 py-5 justify-between items-center">  
+        <div class="logo">
+          <img src="./asset/logo.png" alt="" srcset="">
+        </div>
+        <!-- space - x (untuk mengatur spasi X horizontal text) -->
+        <!--  space - y (untuk mengatur spasi y horizontal text)-->
+        <div class="text space-x-6 text-white ">
+          <a href="">home</a>
+          <a href="">updates</a>
+          <a href="">servises</a>
+          <a href="">features</a>
+          <a href="">About us</a>
+        </div>
+        <div class="bg-white text-navbar button rounded-md shadow hover:shadow-gray-50 transition-all duration-200 ease-in-out">
+          <button class="px-6 py-2 "> 
+            login
+          </button>
+        </div>
+      </div>
+    </headerclass>
   </body>
 </html>

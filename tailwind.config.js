@@ -6,6 +6,9 @@ module.exports = {
         navbar: "#2851E3",
         test: "#fff",
       },
+      fontFamily: {
+        default: ["Inter", "sans-serif"],
+      },
     },
   },
   plugins: [],
